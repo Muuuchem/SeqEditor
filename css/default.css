@@ -8,6 +8,15 @@ body {
     position: absolute;
 }
 
+.form-label {
+    padding: 10px;
+
+}
+
+.input {
+    align-self:self-end;
+}
+
 .modal {
     position: fixed;
     top: 10%;
