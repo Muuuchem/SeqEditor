@@ -83,4 +83,12 @@ body {
     margin: 3%;
 }
 
+.table {
+    border: solid 1px #DDD;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center;
+    height: 20px;
+}
+
 
