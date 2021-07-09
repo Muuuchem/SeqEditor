@@ -25,11 +25,15 @@ Complex bonding pattern:
 ```
 Example of how this tool would represent a hairpin (Notice how spacing between rows is dynamic
 based upon bonds):
+
+```xml
 <se><chain><c>Hairpin Example on second row</c><seq s='UAACGGGAGUAGUUAUACAUUUCAGAGUUUAUCAAUUCUGUCCUCUUAGGUUUCCUGUUUUUUUUUUUUUUAUAUAUAUAUACAUUAUUGUAAAAUAAUUAUAAUUAUAGGUGAUAAAAAAUUUCAGUAGUUUUAUUUGUUUUAGAUAGUGAAACUAAAAAAUAUUAAAUUAGCUCAUUACUUACAUACUAGAA' ></seq><b st='74' end='108' t='salt bridge'></b><b st='75' end='107' t='hydrogen'></b><b st='76' end='106' t='hydrogen'></b><b st='79' end='103' t='hydrogen'></b><b st='80' end='102' t='hydrogen'></b><b st='81' end='101' t='hydrogen'></b><b st='82' end='100' t='hydrogen'></b><b st='84' end='99' t='hydrogen'></b><b st='85' end='98' t='hydrogen'></b><b st='86' end='97' t='hydrogen'></b><b st='87' end='96' t='hydrogen'></b><b st='88' end='95' t='hydrogen'></b><b st='89' end='94' t='nitroxy'></b></chain></se>
-
+```
 Another more Complicated Hairpin:
-<se><chain><c>Complicated Hairpin Example</c><seq s='UAACGGGAGUAGUUAUACAUUUCAGAGUUUAUCAAUUCUGUCCUCUUAGGUUUCCUGUUUUUUUUUUUUUUAUAUAUAUAUACAUUAUUGUAAAAUAAUUAUAAUUAUAGGUGAUAAAAAAUUUCAGUAGUUUUAUUUGUUUUAGAUAGUGAAACUAAAAAAUAUUAAAUUAGCUCAUUACUUACAUACUAGAA' ></seq><b st='14' end='48' t='salt bridge'></b><b st='15' end='47' t='hydrogen'></b><b st='16' end='46' t='hydrogen'></b><b st='19' end='43' t='hydrogen'></b><b st='20' end='42' t='hydrogen'></b><b st='21' end='41' t='hydrogen'></b><b st='22' end='40' t='hydrogen'></b><b st='24' end='39' t='hydrogen'></b><b st='25' end='38' t='hydrogen'></b><b st='26' end='37' t='hydrogen'></b><b st='27' end='36' t='hydrogen'></b><b st='28' end='35' t='hydrogen'></b><b st='29' end='34' t='nitroxy'></b><b st='5' end='52' t='salt bridge'></b><b st='3' end='50' t='nitroxy'></b><b st='2' end='44' t='nitroxy'></b></chain></se>
 
+```xml
+<se><chain><c>Complicated Hairpin Example</c><seq s='UAACGGGAGUAGUUAUACAUUUCAGAGUUUAUCAAUUCUGUCCUCUUAGGUUUCCUGUUUUUUUUUUUUUUAUAUAUAUAUACAUUAUUGUAAAAUAAUUAUAAUUAUAGGUGAUAAAAAAUUUCAGUAGUUUUAUUUGUUUUAGAUAGUGAAACUAAAAAAUAUUAAAUUAGCUCAUUACUUACAUACUAGAA' ></seq><b st='14' end='48' t='salt bridge'></b><b st='15' end='47' t='hydrogen'></b><b st='16' end='46' t='hydrogen'></b><b st='19' end='43' t='hydrogen'></b><b st='20' end='42' t='hydrogen'></b><b st='21' end='41' t='hydrogen'></b><b st='22' end='40' t='hydrogen'></b><b st='24' end='39' t='hydrogen'></b><b st='25' end='38' t='hydrogen'></b><b st='26' end='37' t='hydrogen'></b><b st='27' end='36' t='hydrogen'></b><b st='28' end='35' t='hydrogen'></b><b st='29' end='34' t='nitroxy'></b><b st='5' end='52' t='salt bridge'></b><b st='3' end='50' t='nitroxy'></b><b st='2' end='44' t='nitroxy'></b></chain></se>
+```
 Try importing the following Fasta sequence by clicking the second button from the left
 and pasting it into the resulting textbox. The editor can stack chains with different 
 names and sequences.
