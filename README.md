@@ -80,6 +80,12 @@ that says "delete chain" once you hover over it
 When editing text, you will see any bonds move along with the text, and as soon as you click
 away from the textbox, the text will realign with the numbering system.
 
-If you are looking at this before Monday 7/12/21, I sent you my resume early and need to fix 
-minor issues with some of the buttons (mainly editing existing bonds/annotations and annotations 
-disappear upon editing)
+To Add:
+1.) BondTypes and Colors associated with them
+	-new button for adding and editing bond types
+2.) Demo button so users don't have to copy and paste XML
+
+Known Issues To Fix:
+1.) Issue with changing annotation chain with bonds especially in complexly bonded sequences
+
+2.) EditAnnotations fills in chain X for seq dropdowns, but EditBonds seems to put all as Chain 1
