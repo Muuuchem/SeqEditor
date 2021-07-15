@@ -78,7 +78,9 @@ Chains can be deleted by clicking on chain once to highlight them, then clicking
 that says "delete chain" once you hover over it
 
 When editing text, you will see any bonds move along with the text, and as soon as you click
-away from the textbox, the text will realign with the numbering system.
+away from the textbox, the text will realign with the numbering system. If bonds are glitchy and
+not connected (may happen when editing/deleting bonds and annotations), simply add and delete
+a character and the bonds should instantly rerender.
 
 To Add:
 1.) BondTypes and Colors associated with them
@@ -88,4 +90,4 @@ To Add:
 Known Issues To Fix:
 1.) Issue with changing annotation chain with bonds especially in complexly bonded sequences
 
-2.) EditAnnotations fills in chain X for seq dropdowns, but EditBonds seems to put all as Chain 1
+2.) Notes for bonds seem to be filling with second seq
