@@ -96,6 +96,5 @@ To Add:
 2.) Demo button so users don't have to copy and paste XML
 
 Known Issues To Fix:
-1.) Issue with changing annotation chain with bonds especially in complexly bonded sequences
 
-2.) Notes for bonds seem to be filling with second seq
+1.) Notes for bonds seem to be filling with second seq
