@@ -34,9 +34,17 @@ Another more Complicated Hairpin:
 ```xml
 <se><chain><c>Complicated Hairpin Example</c><seq s='UAACGGGAGUAGUUAUACAUUUCAGAGUUUAUCAAUUCUGUCCUCUUAGGUUUCCUGUUUUUUUUUUUUUUAUAUAUAUAUACAUUAUUGUAAAAUAAUUAUAAUUAUAGGUGAUAAAAAAUUUCAGUAGUUUUAUUUGUUUUAGAUAGUGAAACUAAAAAAUAUUAAAUUAGCUCAUUACUUACAUACUAGAA' ></seq><b st='14' end='48' t='salt bridge'></b><b st='15' end='47' t='hydrogen'></b><b st='16' end='46' t='hydrogen'></b><b st='19' end='43' t='hydrogen'></b><b st='20' end='42' t='hydrogen'></b><b st='21' end='41' t='hydrogen'></b><b st='22' end='40' t='hydrogen'></b><b st='24' end='39' t='hydrogen'></b><b st='25' end='38' t='hydrogen'></b><b st='26' end='37' t='hydrogen'></b><b st='27' end='36' t='hydrogen'></b><b st='28' end='35' t='hydrogen'></b><b st='29' end='34' t='nitroxy'></b><b st='5' end='52' t='salt bridge'></b><b st='3' end='50' t='nitroxy'></b><b st='2' end='44' t='nitroxy'></b></chain></se>
 ```
-Try importing the following Fasta sequence by clicking the second button from the left
+The editor also works with Fasta Sequences! Try importing the following Fasta sequence by clicking the second button from the left
 and pasting it into the resulting textbox. The editor can stack chains with different 
-names and sequences.
+names and sequences. The Fasta import feature adds
+
+Single Chain Polypeptide/Protein Sequence:
+
+>tr|A6XGL2|A6XGL2_HUMAN Insulin OS=Homo sapiens OX=9606 GN=INS PE=1 SV=1
+MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+LQGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN
+
+Multi Chain DNA Sequence:
 
 >HSBGPG Human gene for bone gla protein (BGP)
 GGCAGATTCCCCCTAGACCCGCCCGCACCATGGTCAGGCATGCCCCTCCTCATCGCTGGGCACAGCCCAGAGGGT
