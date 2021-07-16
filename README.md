@@ -5,6 +5,8 @@ You can try the software out at the following github pages link:
 
 https://muuuchem.github.io/SeqEditor/
 
+Designed as a complete remake of an unused prototype I created two years ago.
+
 Sequences can be imported by pasting in the fasta but also by an xml format which can be
 generated from any sequence you have drawn.
 
@@ -15,6 +17,17 @@ text and see how the editor dynamically rerenders the bonds such that the linkag
 the part of the sequence it is bonded to. Once you are done making changes, press the next
 to the last button to generate the unique XML that you can use to rerender the same exact 
 visualization.
+
+Chains can be edited by double clicking on text(blank chains start with "AAA" by default).
+
+Chains can be deleted by clicking on chain once to highlight them, then clicking the button
+that says "delete chain" once you hover over it.
+
+When editing text, you will see any bonds move along with the text, and as soon as you click
+away from the textbox, the text will realign with the numbering system. If bonds are glitchy and
+not connected (may happen when editing/deleting bonds and annotations, although I think I have mostly
+fixed this issue), simply press the refresh button or add and delete a character and the bonds should
+instantly rerender.
 
 **Click the last button on the toolbar and paste in some of the examples below:**
 
@@ -36,7 +49,9 @@ Another more Complicated Hairpin:
 ```
 The editor also works with Fasta Sequences! Try importing the following Fasta sequence by clicking the second button from the left
 and pasting it into the resulting textbox. The editor can stack chains with different 
-names and sequences. The Fasta import feature adds
+names and sequences. The Fasta import feature adds to current chains if they exist, so 
+be sure to hit the clear button (1st button) in order to import a completely new
+sequence from FASTA.
 
 Single Chain Polypeptide/Protein Sequence:
 
@@ -80,21 +95,11 @@ TCAGCCCCGCGCTGCAGGCGTCGCTGGACAAGTTCCTGAGCCACGTTATCTCGGCGCTGGTTTCCGAGTACCGCT
 GAACTGTGGGTGGGTGGCCGCGGGATCCCCAGGCGACCTTCCCCGTGTTTGAGTAAAGCCTCTCCCAGGAGCAGC
 CTTCTTGCCGTGCTCTCTCGAGGTCAGGACGCGAGAGGAAGGCGC
 
-Chains can be edited by double clicking on text(blank chains start with "AAA" by default)
-
-Chains can be deleted by clicking on chain once to highlight them, then clicking the button
-that says "delete chain" once you hover over it
-
-When editing text, you will see any bonds move along with the text, and as soon as you click
-away from the textbox, the text will realign with the numbering system. If bonds are glitchy and
-not connected (may happen when editing/deleting bonds and annotations), simply add and delete
-a character and the bonds should instantly rerender.
 
 To Add:
-1.) BondTypes and Colors associated with them
-	-new button for adding and editing bond types
+1.) New button for adding and editing bond types
 2.) Demo button so users don't have to copy and paste XML
 
 Known Issues To Fix:
 
-1.) Notes for bonds seem to be filling with second seq
+1.) Fix bond dropdown showing all disulfide bonds
