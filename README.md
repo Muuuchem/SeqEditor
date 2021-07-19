@@ -23,6 +23,9 @@ Chains can be edited by double clicking on text(blank chains start with "AAA" by
 Chains can be deleted by clicking on chain once to highlight them, then clicking the button
 that says "delete chain" once you hover over it.
 
+Hover over Bonds (only works within the boxes that encapsulate bonding nucleotides) and 
+Annotations to see information about where they are located and Notes associated with them.
+
 When editing text, you will see any bonds move along with the text, and as soon as you click
 away from the textbox, the text will realign with the numbering system. If bonds are glitchy and
 not connected (may happen when editing/deleting bonds and annotations, although I think I have mostly
