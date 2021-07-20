@@ -105,4 +105,4 @@ To Add:
 
 Known Issues To Fix:
 
-1.) Fix bond dropdown showing all disulfide bonds
+1.) BONDS WILL NOT SHOW UP IF THEY START AT THE BEGINNING or END OF AN ANNOTATION
